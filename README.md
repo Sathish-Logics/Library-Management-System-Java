@@ -1,18 +1,46 @@
-## Getting Started
+## Library Management System - Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple Java-based Library Management System to manage books, borrowing, and returning functionality.
+
+## Features
+- Add, list, borrow, and return books
+- User-friendly console interface
+- Object-oriented design
+- Persistent data storage (if applicable)
 
 ## Folder Structure
+- src - Java source code files
+- bin - Compiled .class files (ignored in Git)
+- .gitignore - Specifies files to be ignored by Git
 
-The workspace contains two folders by default, where:
+## How to Run
+1. Clone the repository:
+   bash
+   git clone https://github.com/Sathish-Logics/Library-Management-System-Java.git
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+2. Navigate to the project folder:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+   bash
+   cd Library-Management-System-Java
+   
+4. Compile the Java files:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+   bash
+   javac -d bin src/*.java
+   
+5. Run the program:
 
-## Dependency Management
+   bash
+   java -cp bin Main
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Contribution
+
+Feel free to fork the repo and submit pull requests for improvements or new features.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+Made with ❤️ by Sathish
