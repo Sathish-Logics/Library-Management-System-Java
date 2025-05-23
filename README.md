@@ -40,10 +40,6 @@ A simple Java-based Library Management System to manage books, borrowing, and re
 
 Feel free to fork the repo and submit pull requests for improvements or new features.
 
-## License
-
-This project is licensed under the MIT License.
-
 ---
 
 Made with ❤️ by Sathish
