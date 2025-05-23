@@ -16,6 +16,7 @@ public class Main {
         ExitAction exitAction = new ExitAction();
 
         while (true) {
+            System.out.println();
             System.out.println("\n1. Add Book\n2. List Books\n3. Borrow Book\n4. Return Book\n5. Exit");
             System.out.print("Choose Option: ");
 
