@@ -1,4 +1,5 @@
-## Library Management System - Java
+
+# Library Management System - Java
 
 A simple Java-based Library Management System to manage books, borrowing, and returning functionality.
 
@@ -9,29 +10,31 @@ A simple Java-based Library Management System to manage books, borrowing, and re
 - Persistent data storage (if applicable)
 
 ## Folder Structure
-- src - Java source code files
-- bin - Compiled .class files (ignored in Git)
-- .gitignore - Specifies files to be ignored by Git
+- `src/` - Java source code files
+- `bin/` - Compiled `.class` files (ignored in Git)
+- `.gitignore` - Specifies files to be ignored by Git
 
 ## How to Run
 1. Clone the repository:
-   bash
+   ```bash
    git clone https://github.com/Sathish-Logics/Library-Management-System-Java.git
+````
 
 2. Navigate to the project folder:
 
-   bash
+   ```bash
    cd Library-Management-System-Java
-   
-4. Compile the Java files:
+   ```
+3. Compile the Java files:
 
-   bash
+   ```bash
    javac -d bin src/*.java
-   
-5. Run the program:
+   ```
+4. Run the program:
 
-   bash
+   ```bash
    java -cp bin Main
+   ```
 
 ## Contribution
 
@@ -44,3 +47,4 @@ This project is licensed under the MIT License.
 ---
 
 Made with ❤️ by Sathish
+
