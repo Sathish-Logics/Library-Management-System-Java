@@ -16,25 +16,16 @@ A simple Java-based Library Management System to manage books, borrowing, and re
 
 ## How to Run
 1. Clone the repository:
-   ```bash
    git clone https://github.com/Sathish-Logics/Library-Management-System-Java.git
-````
 
 2. Navigate to the project folder:
-
-   ```bash
    cd Library-Management-System-Java
-   ```
+   
 3. Compile the Java files:
-
-   ```bash
    javac -d bin src/*.java
-   ```
-4. Run the program:
 
-   ```bash
+4. Run the program:
    java -cp bin Main
-   ```
 
 ## Contribution
 
